@@ -3,9 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Mi portafolio</title>
 </head>
 <body>
-    <h1>Proyecto M1</h1>
+    <header>
+    <h1>MI PRIMERA WEB</h1>
+    <nav>
+        <ul>
+            <li>Acerca de mi</li>
+            <li>Mis tecnologias favoritas</li>
+            <li>Mis actividades favoritas</li>
+        </ul>
+    </nav>
+    </header>
+    <main>
+    <section id="about">
+        <h2 >Acerca de Mi</h2>
+        <p>Soy nicolas estudiante de programacion</p>
+    </section>
+    <section id="tecfav">
+        <h2>Mis tecnologias favoritas</h2>
+        <article>
+            <ul>
+                <li>
+                    <h3>
+                        HTML5
+                    </h3>
+                <img src="./styles/imagenes/html-1.svg" alt="HTML" title="HTML">
+                </li>
+                <li>
+                    <h3>
+                        CSS3
+                    </h3>
+                    <img src="./styles/imagenes/css-3.svg" alt="CSS" title="Css">
+                </li>
+                <li>
+                    <h3>
+                        javas
+                    </h3>
+                <img src="./styles/imagenes/javascript-1.svg" alt="javas" title="Javas">
+                </li>
+            </ul>
+        </article>
+    </section>
+    <section id="favact">
+        <h2>Mis actividades favoritas</h2>
+        <form >
+            <div>
+            <label for="miInput">Título del Campo: </label>
+            <input type="text" id="miInput" name="miInput">
+        </div>
+        <div>
+            <label for="midescript">Describa actividad: </label>
+            <textarea name="mi descript" id="midescript" cols="30" rows="10"></textarea>
+        </div>
+        <div>
+            <label for="miurl">Ingrese URL: </label>
+            <input type="url" id="miurl" name="miurl">
+        </div>
+        </form>
+    
+    </section>
+</main>
+    <footer>
+        <p>Hecho por <strong>NiKiN</strong>  <br> &copy; Todos los derechos bien derechos</p>
+    </footer>
 </body>
 </html>

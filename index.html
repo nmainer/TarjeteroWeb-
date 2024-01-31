@@ -12,18 +12,18 @@
     <h1>MI PRIMERA WEB</h1>
     <nav>
         <ul>
-            <li>Acerca de mi</li>
-            <li>Mis tecnologias favoritas</li>
-            <li>Mis actividades favoritas</li>
+            <li> <a href="#acercademi">Acerca de mi</a></li>
+            <li> <a href="#mistecnologias">Mis tecnologias favoritas</a></li>
+            <li> <a href="#misact">Mis actividades favoritas</a></li>
         </ul>
     </nav>
     </header>
     <main>
-    <section id="about">
+    <section id="acercademi">
         <h2 >Acerca de Mi</h2>
         <p>Soy nicolas estudiante de programacion</p>
     </section>
-    <section id="tecfav">
+    <section id="mistecnologias">
         <h2>Mis tecnologias favoritas</h2>
         <article>
             <ul>
@@ -48,9 +48,9 @@
             </ul>
         </article>
     </section>
-    <section id="favact">
+    <section id="misact">
         <h2>Mis actividades favoritas</h2>
-        <form >
+        <form>
             <div>
             <label for="miInput">Título del Campo: </label>
             <input type="text" id="miInput" name="miInput">
@@ -63,8 +63,9 @@
             <label for="miurl">Ingrese URL: </label>
             <input type="url" id="miurl" name="miurl">
         </div>
+        <input type="submit" value="Generar tarjeta">
         </form>
-    
+    <div id="contenedor_tarjetas"></div>
     </section>
 </main>
     <footer>

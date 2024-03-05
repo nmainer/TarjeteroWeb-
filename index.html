@@ -8,23 +8,24 @@
     <title>Mi portafolio</title>
 </head>
 <body>
-    <header>
+    
     <h1>MI PRIMERA WEB</h1>
+    <header>
     <nav>
         <ul>
-            <li> <a href="#acercademi">Acerca de mi</a></li>
             <li> <a href="#mistecnologias">Mis tecnologias favoritas</a></li>
-            <li> <a href="#misact">Mis actividades favoritas</a></li>
+            <li> <a href="#acercademi">Acerca de mi</a></li>
+            <li> <a href="#misact"> Mis actividades favoritas</a></li>
         </ul>
     </nav>
     </header>
     <main>
-    <section id="acercademi">
         <h2 >Acerca de Mi</h2>
+        <section id="acercademi">
         <p>Soy nicolas estudiante de programacion</p>
-    </section>
-    <section id="mistecnologias">
+        </section>
         <h2>Mis tecnologias favoritas</h2>
+        <section id="mistecnologias">
         <article>
             <ul>
                 <li>
@@ -48,24 +49,22 @@
             </ul>
         </article>
     </section>
-    <section id="misact">
+    
         <h2>Mis actividades favoritas</h2>
+        <section id="misact">
         <form>
-            <div>
-            <label for="miInput">Título del Campo: </label>
-            <input type="text" id="miInput" name="miInput">
-        </div>
-        <div>
-            <label for="midescript">Describa actividad: </label>
-            <textarea name="mi descript" id="midescript" cols="30" rows="10"></textarea>
-        </div>
-        <div>
-            <label for="miurl">Ingrese URL: </label>
-            <input type="url" id="miurl" name="miurl">
-        </div>
-        <input type="submit" value="Generar tarjeta">
+            <label for="miInput"> </label>
+            <input type="text" id="miInput" name="miInput" placeholder="Título del Campo">
+      
+            <label for="midescript"></label>
+            <textarea name="mi descript" id="midescript" cols="30" rows="10" placeholder="Describa actividad:"></textarea>
+       
+            <label for="miurl"></label>
+            <input type="url" id="miurl" name="miurl" placeholder="Ingrese URL:">
+       
+            <input type="submit" value="Generar tarjeta">
         </form>
-    <div id="contenedor_tarjetas"></div>
+   
     </section>
 </main>
     <footer>

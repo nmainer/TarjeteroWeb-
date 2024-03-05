@@ -1,87 +1,70 @@
 body{
-    background-color: black;
+    background-color: rgb(37, 34, 34);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: antiquewhite
     
 }
-
-header{
-    background-color: rgb(68, 66, 66);
-    color: antiquewhite;
+header ,
+section {
+    background-color: rgb(107, 105, 105);
     box-shadow: 1px 1px 1px rgb(108, 108, 207);
-    margin-top: 1rem;
-    width: 100%;
+    width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;  
+}
+h1,h2,h3 {
     text-align: center;
-    align-items: center;
-}
-
-
-h1{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: large;
-    padding: 1rem;
-
+    padding: 1.5rem; 
 }
 
-nav{
-    background-color: rgb(100, 94, 94);
-    width: 100%;
-    
-}
-ul{
+ul,
+a{  text-decoration: none;
     list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 10px; 
+    color: antiquewhite;
 }
 a{
-    text-decoration: none;
-    color: antiquewhite
+    display: block;
 }
-
 li{
-    display: flex;
-    flex-direction: column;
+    display: inline-block;
+    padding: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
 }
 
-li:hover ,
+li:hover,
 a:hover{
 color: rgb(71, 122, 189);
 }
-main{
-    margin-top: 3rem;
-}
-section{
-    background-color: rgb(80, 76, 76);
-    margin: 1rem;
-    text-align: center;
-    box-shadow: 1px 1px 1px black;
-    padding: 10px 0px 10px 0px;
-    box-shadow: 1px 1px 1px  rgb(108, 108, 207);
-    text-align: center;
-    padding-left: 3rem;
-}
+
+
 img{
-    width: 10rem;
-    height: 6rem;
-    padding: 1rem;
+    width: 12rem;
+    height: 7rem;
+   
 }
 img:hover{
     transform: scale(1,1.15);
 }
 
-input{
+input,
+textarea{
+   display: block;
    margin: 1.5rem;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: rgb(37, 34, 34);
+   color: antiquewhite;
 }
-
-input,textarea{
-    color: rgb(232, 236, 236);
-    background-color: rgb(73, 62, 62);
+form{
+display: inline-block;
 }
+    
 footer{
+    margin-top: 1rem;
+    text-align: center;
     background-color: rgb(44, 41, 41);
     margin-bottom: 1rem;
 }
-#imgURL{
-    width: 20rem;
-}
+

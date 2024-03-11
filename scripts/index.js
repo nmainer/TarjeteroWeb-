@@ -39,13 +39,12 @@ let valor = new Repository();
 
 
 function armar (obj){
-  let {id,title,description,imgUrl}=obj;
+  let {title,description,imgUrl}=obj;
   
   let titulo = document.createElement("h3");
   let descripcion=document.createElement("p");
   let imagen=document.createElement("img");
   let tarjeta=document.createElement("div");
-  
   
 
   titulo.innerHTML=title;
@@ -60,6 +59,9 @@ function armar (obj){
   tarjeta.appendChild(titulo);
   tarjeta.appendChild(descripcion);
   tarjeta.appendChild(imagen);
+
+  
+
 
 return tarjeta;
 };
@@ -77,15 +79,20 @@ function armar2 (){
   
 contenedor.innerHTML="";
 
-let val=valor.getAllActivities().map(function (elemento){
- return  armar(elemento);
+valor.getAllActivities().forEach(function (elemento) {
+  let tarjeta = armar(elemento);
+  tarjeta.addEventListener("click", function () {
+    valor.deleteActivity(elemento.id);
+    armar2();
+  });
+  contenedor.appendChild(tarjeta);
 });
 
-val.forEach(function (elemento2){
-  contenedor.appendChild(elemento2)
-});
 
 };
+
+
+
 
 function handler (){
 

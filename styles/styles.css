@@ -68,3 +68,54 @@ footer{
     margin-bottom: 1rem;
 }
 
+.titulo
+.descripcion{
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(242, 250, 215);
+    
+}
+.titulo{
+    padding: 0.5rem;
+    width: fit-content;
+    background-color: rgb(117, 107, 107);
+    border: solid 3px rgb(17, 15, 153);
+    border-radius: 1rem; 
+}
+.descripcion{
+    margin: 0.5rem;
+    width: fit-content;
+    background-color: rgb(117, 107, 107);
+    border: solid 3px rgb(17, 15, 153);
+    border-radius: 1rem; 
+}
+.imagen{
+    
+    padding: 0.5rem;
+    border: solid 3px rgb(17, 15, 153);
+    border-radius: 1rem;
+}
+.tarjeta{
+
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(82, 62, 62, 0);
+    border: solid 3px black;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#contenedordetarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75vw;
+    height: fit-content;
+    margin: 1rem auto; /* Ajustado el margen superior e inferior */
+    background-color: rgb(117, 107, 107);
+    border: solid 2px rgb(42, 17, 185);
+    border-radius: 1rem; 
+}

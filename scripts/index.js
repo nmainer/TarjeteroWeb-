@@ -114,7 +114,7 @@ let valor3= zocaloimg.value;
   zocalodescripcion.value="";
   zocaloimg.value="";
 
-
+  
 armar2();
 
 }

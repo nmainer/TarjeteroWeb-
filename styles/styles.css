@@ -43,7 +43,6 @@ color: rgb(71, 122, 189);
 img{
     width: 12rem;
     height: 7rem;
-   
 }
 img:hover{
     transform: scale(1,1.15);
@@ -114,6 +113,7 @@ footer{
     flex-wrap: wrap;
     width: 75vw;
     height: fit-content;
+    justify-content: center;
     margin: 1rem auto; /* Ajustado el margen superior e inferior */
     background-color: rgb(117, 107, 107);
     border: solid 2px rgb(42, 17, 185);

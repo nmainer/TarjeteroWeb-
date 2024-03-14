@@ -55,6 +55,7 @@ textarea{
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    background-color: rgb(37, 34, 34);
    color: antiquewhite;
+   border-radius: 1rem;
 }
 form{
 display: inline-block;
@@ -114,7 +115,7 @@ footer{
     width: 75vw;
     height: fit-content;
     justify-content: center;
-    margin: 1rem auto; /* Ajustado el margen superior e inferior */
+    margin: 1rem auto; 
     background-color: rgb(117, 107, 107);
     border: solid 2px rgb(42, 17, 185);
     border-radius: 1rem; 

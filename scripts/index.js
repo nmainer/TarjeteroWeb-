@@ -77,7 +77,7 @@ return tarjeta;
 function armar2 (){
   let contenedor = document.querySelector(".tarjetero");
   
-contenedor.innerHTML="";
+  contenedor.innerHTML="";
 
 valor.getAllActivities().forEach(function (elemento) {
   let tarjeta = armar(elemento);
@@ -114,7 +114,7 @@ let valor3= zocaloimg.value;
   zocalodescripcion.value="";
   zocaloimg.value="";
 
-  
+
 armar2();
 
 }

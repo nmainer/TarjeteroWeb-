@@ -44,7 +44,7 @@ img{
     width: 12rem;
     height: 7rem;
 }
-img:hover{
+.imagin:hover{
     transform: scale(1,1.15);
 }
 
@@ -113,7 +113,7 @@ footer{
     display: flex;
     flex-wrap: wrap;
     width: 75vw;
-    height: fit-content;
+    
     justify-content: center;
     margin: 1rem auto; 
     background-color: rgb(117, 107, 107);

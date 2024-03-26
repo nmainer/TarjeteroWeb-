@@ -11,8 +11,11 @@
 
     
     
-    <h1>MI PRIMERA WEB</h1>
+    
     <header>
+        <section class="miprimeraweb">
+        <h1>MI PRIMERA WEB</h1>
+        <div class="enlaces">
     <nav>
         <ul>
             <li> <a href="#mistecnologias">Mis tecnologias favoritas</a></li>
@@ -20,14 +23,24 @@
             <li> <a href="#misact"> Mis actividades favoritas</a></li>
         </ul>
     </nav>
+</div>
+</section>
     </header>
     <main>
-        <h2 >Acerca de Mi</h2>
-        <section id="acercademi">
-        <p>Soy nicolas estudiante de programacion y me interesan mucho las nuevas tecnologias</p>
-        </section>
-        <h2>Mis tecnologias favoritas</h2>
-        <section id="mistecnologias">
+        
+    <section class="sobremi">
+    <h2 >Acerca de Mi</h2>
+    <div class="sobremifoto">
+    <img src="./styles/imagenes/fotonico.jpg" id="fotonico" alt="fotonico" title="nico">
+    <p>Hola!, mi nombre es Nicolas, naci en la Capital Federal Rep. Argentina, pero hace ya varios años vivo
+        en la ciudad de Santa Fe, tengo 34 años y me apasiona la programacion como asi tambien las nuevas tecnologias..
+    </p>
+    </div>
+    
+    </section>
+        
+        <section class="mistecnologias">
+            <h2>Mis tecnologias favoritas</h2>
         <article>
             <ul>
                 <li>
@@ -52,8 +65,10 @@
         </article>
     </section>
     
-        <h2>Mis actividades favoritas</h2>
-        <section id="misact">
+        
+        <section class="misact">
+            <h2>Mis actividades favoritas</h2>
+            <div class="formulario">
         <form>
             <label for="miInput"> </label>
             <input type="text" id="miInput" name="miInput" placeholder="Título del Campo">
@@ -66,7 +81,7 @@
        
             <input type="submit" value="Generar tarjeta" id="submit">
         </form>
-   
+    </div>
     </section>
     <div id="contenedordetarjetas" class="tarjetero">
 
@@ -80,6 +95,7 @@
     <footer>
         <p>Hecho por <strong>NiKiN</strong>  <br> &copy; Todos los derechos bien derechos</p>
     </footer>
+
     <script src="./scripts/modelos.js"></script>
     <script src="./scripts/index.js"></script>
     

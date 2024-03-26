@@ -72,9 +72,13 @@ let valor3= zocaloimg.value;
     alert ("debes completar todos los campos");
     return;
   };
+let valores = {
+  title:valor1,
+  description:valor2,
+  imgUrl:valor3
+}
 
-
-  valor.createActivity({ title: valor1,description:valor2,imgUrl:valor3});
+  valor.createActivity(valores);
 
   zocalotitulo.value="";
   zocalodescripcion.value="";
